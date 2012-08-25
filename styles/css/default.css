@@ -20,3 +20,16 @@ body{
     background:#252525;
     border-bottom:1px #cccccc solid;
 }
+
+#SignOn{
+    width:200px;
+    margin: 250px auto; 
+    font-family:verdana;
+    font-size: 11px;
+    color:#71bdf0;
+}
+
+#SignOn input{
+   border:1px #71bdf0 solid;
+   width: 130px;
+}
