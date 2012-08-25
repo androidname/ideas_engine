@@ -1,0 +1,22 @@
+/* 
+    Document   : default
+    Created on : 25.08.2012, 23:15:15
+    Author     : Sunmedia
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body,#header,#top{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+}
+
+#top{
+    height:35px;
+    background:#252525;
+    border-bottom:1px #cccccc solid;
+}

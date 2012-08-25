@@ -116,6 +116,8 @@ Kohana::modules(array(
  */
 Route::set('default', '(<controller>(/<action>(/<id>)))')
 	->defaults(array(
-		'controller' => 'default',
+		'controller' => 'page',
 		'action'     => 'index',
 	));
+
+set_exception_handler(array('Model_Errors','handle'));

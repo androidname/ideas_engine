@@ -11,5 +11,4 @@ class Controller_Default extends Controller_Template {
             $this->template->content = "";
             $this->template->footer = "Copyright S-Ideas";
         }
-
 } // End Welcome

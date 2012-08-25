@@ -6,13 +6,9 @@ and open the template in the editor.
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title><?php echo $title; ?></title>
-        <meta name="description" key="<?php echo $description; ?>" />
+        <title>Ошибка 404 ( Страница не найдена )</title>
     </head>
     <body>
-        <?php
-            echo $content;
-        ?>
-        <div id="footer"><?php echo $footer; ?></div>
+        Страница не найдена
     </body>
 </html>
