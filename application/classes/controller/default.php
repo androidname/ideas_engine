@@ -2,17 +2,14 @@
 
 class Controller_Default extends Controller_Template {
 
-        public $template = "layout/default";
+        public $template = "templates/default";
         
         public function before() {
             parent::before();
-            
-        }
-
-
-        public function action_index()
-	{
-            
+            $this->template->title = "i-engine";
+            $this->template->description = "idea engine";
+            $this->template->content = "";
+            $this->template->footer = "Copyright S-Ideas";
         }
 
 } // End Welcome
