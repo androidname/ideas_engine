@@ -36,16 +36,17 @@ body{
 
 
 /* Icon */
+
+* {
+    margin: 0;
+    padding: 0;
+}
 #icon_nav{
     width:540px;
     height: 280px;
-    margin: 180px auto;
+    margin: 150px auto;
 }
-#icon_nav table{
-}
-#icon_table tr{
-    margin: 20px;
-}
+
 #icon_table td{
     border-style: none;
     width: 128px;

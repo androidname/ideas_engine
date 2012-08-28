@@ -57,7 +57,7 @@ and open the template in the editor.
             <td>
                 <a href="/yaadmin/news"><img src="styles/image/news.png" /></a>
             </td>
-            <td>
+            <td width="60">
                 <ul>
                     <li class="li-t">Новости</li>
                     <li class="li-n"><a href="/yaadmin/addnews">Создать новую</a></li>
