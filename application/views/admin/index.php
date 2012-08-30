@@ -23,7 +23,7 @@ and open the template in the editor.
                 <ul>
                     <li class="li-t">Страницы</li>
                     <li class="li-n"><a href="<?php echo URL::base(); ?>yaadmin/addpage">Создать новую</a></li>
-                    <li class="li-n"><a href="<?php echo URL::base(); ?>yaadmin/pages">Показать все</a></li>
+                    <li class="li-n"><a href="<?php echo URL::base(); ?>admin/pages">Показать все</a></li>
                 </ul>
             </td>
             
