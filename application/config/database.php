@@ -18,10 +18,10 @@ return array
 			 *
 			 * Ports and sockets may be appended to the hostname.
 			 */
-			'hostname'   => '127.0.0.5',
-			'database'   => 'idea_db',
-			'username'   => 'root',
-			'password'   => '',
+			'hostname'   => '127.0.0.5',//127.0.0.5   mysql.hostinger.com.ua
+			'database'   => 'idea_db',//idea_db   u921365548_engine
+			'username'   => 'root',//root  u921365548_root
+ 			'password'   => '',  //xundersun9
 			'persistent' => FALSE,
 		),
 		'table_prefix' => '',

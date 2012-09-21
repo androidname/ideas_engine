@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-class Model_Page extends ORM{
+class Model_Menu extends ORM{
 }
 
 ?>

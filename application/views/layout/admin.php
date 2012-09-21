@@ -1,7 +1,3 @@
-<!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
--->
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,18 +5,18 @@ and open the template in the editor.
         <title><?php echo $title; ?></title>
         <?php
             foreach ($styles as $val_styles) {
-                echo HTML::style($val_styles);
+                echo HTML::style($val_styles)."\n";
             }
             
             foreach ($scripts as $val_scripts) {
-                echo HTML::script($val_scripts);
+                echo HTML::script($val_scripts)."\n";
             }
         ?>
     </head>
     <body>
         <div id="header">
             <div id="top">
-                
+                <a href="<?php echo URL::base(); ?>adminpage/logout" class="top_link">Logout</a>
             </div>
         </div>
         <?php

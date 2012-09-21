@@ -2,4 +2,14 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/C:/VirtualServer/domains/idealab_engine/application/views/admin/page.php</file>
+        <file>file:/C:/VirtualServer/domains/idealab_engine/application/classes/controller/page.php</file>
+        <file>file:/C:/VirtualServer/domains/idealab_engine/application/classes/controller/adminpage.php</file>
+        <file>file:/C:/VirtualServer/domains/idealab_engine/application/views/layout/admin.php</file>
+        <file>file:/C:/VirtualServer/domains/idealab_engine/application/classes/controller/admin/pageget.php</file>
+        <file>file:/C:/VirtualServer/domains/idealab_engine/application/classes/controller/admin/pages.php</file>
+        <file>file:/C:/VirtualServer/domains/idealab_engine/application/views/admin/menu.php</file>
+        <file>file:/C:/VirtualServer/domains/idealab_engine/application/classes/controller/admin/menuget.php</file>
+    </open-files>
 </project-private>

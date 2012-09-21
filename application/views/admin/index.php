@@ -1,28 +1,24 @@
-<!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
--->
 <div id="icon_nav">
     <table callpadding ="0" id="icon_table">
         <tr>
             <td>
-                <a href="<?php echo URL::base(); ?>yaadmin/menus"><?php echo HTML::image('styles/image/menu.png') ?></a>
+                <a href="<?php echo URL::base(); ?>admin/menus"><?php echo HTML::image('styles/image/menu.png') ?></a>
             </td>
             <td>
                 <ul>
                     <li class="li-t">Меню</li>
-                    <li class="li-n"><a href="<?php echo URL::base(); ?>yaadmin/addmenu">Создать новую</a></li>
-                    <li class="li-n"><a href="<?php echo URL::base(); ?>yaadmin/menus">Показать все</a></li>
+                    <li class="li-n"><a href="<?php echo URL::base(); ?>admin/menus">Создать новую</a></li>
+                    <li class="li-n"><a href="<?php echo URL::base(); ?>admin/menus">Показать все</a></li>
                 </ul>
             </td>
             <td style="width:20px;"></td>
             <td>
-                 <a href="<?php echo URL::base(); ?>yaadmin/pages"><?php echo HTML::image('styles/image/page.png') ?></a>
+                 <a href="<?php echo URL::base(); ?>admin/pages"><?php echo HTML::image('styles/image/page.png') ?></a>
             </td>
             <td>
                 <ul>
                     <li class="li-t">Страницы</li>
-                    <li class="li-n"><a href="<?php echo URL::base(); ?>yaadmin/addpage">Создать новую</a></li>
+                    <li class="li-n"><a href="<?php echo URL::base(); ?>admin/pages">Создать новую</a></li>
                     <li class="li-n"><a href="<?php echo URL::base(); ?>admin/pages">Показать все</a></li>
                 </ul>
             </td>

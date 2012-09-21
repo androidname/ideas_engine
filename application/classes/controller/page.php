@@ -3,6 +3,7 @@
 class Controller_Page extends Controller_Default {
 
         public function action_index(){
+            
             $this->template->content = View::factory('page/index');
         }
 
