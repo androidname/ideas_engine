@@ -1,6 +1,14 @@
 <div id="grid"></div>
             <script>
                 $(document).ready(function () {
+                        urlData = new kendo.data.DataSource({
+                            transport: {
+                                read:  {
+                                    url: "http://e-idea/admin/pageget",
+                                    dataType: "json"
+                                }
+                            }
+                        });
                         dataSource = new kendo.data.DataSource({
                             transport: {
                                 read:  {
@@ -51,26 +59,21 @@
                         columns: [
                             { field: "id", title: "ID", width: 50 },
                             { field: "name", title: "Name", width: 150 },
-                            { field: "title", title: "Title", width: 150 },
+                            { field: "title", title: "Title", width: 150},
                             { field: "link", title: "Link", width: 100, editor: linkDropDownEditor},
                             { field: "parentId", title: "Parent ID", width: 100 },
-                            { field: "position", title: "Position", width: 100,  },
+                            { field: "position", title: "Position", width: 100  },
                             { command: ["edit", "destroy"], title: "&nbsp;", width: "100px" }],
                         editable: "popup"
                     });
                 });
                 
-                function linkDropDownEditor(container, options) {
-                    $('<input data-text-field="title" data-value-field="title" data-bind="value:' + options.field +'"/>')
+                function linkDropDownEditor(container,options) {
+                    $('<input data-text-field="title" data-value-field="url" data-bind="value:' + options.field + '"  />')
                         .appendTo(container)
                         .kendoDropDownList({
-                            autoBind: true,
-                            dataSource: {
-                                type: "json",
-                                transport: {
-                                    read: "http://e-idea/admin/pageget/link"
-                                }
-                            }
-                        });
+                            autoBind: false,
+                            dataSource: urlData
+                     });
                 }
             </script>

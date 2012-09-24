@@ -16,6 +16,7 @@
     <body>
         <div id="header">
             <div id="top">
+                <a href="<?php echo URL::base(); ?>adminpage" class="top_link_menu">[menu]</a>
                 <a href="<?php echo URL::base(); ?>adminpage/logout" class="top_link">Logout</a>
             </div>
         </div>

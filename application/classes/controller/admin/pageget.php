@@ -55,5 +55,24 @@ class Controller_Admin_Pageget extends Controller {
                  $this->response->body($json);
                     }else{ $this->request->redirect('adminpage/login'); }
         }
+        
+        public function action_save(){
+            $auth = Auth::instance();
+                if($auth->logged_in() != 0){
+                    if (isset($_FILES['files']))
+                        {
+                            $filename =  $_FILES['files'];
+                            $directory = DOCROOT.'styles/upload/';
+                            Upload::save($filename, $_FILES['files']['name'], $directory);
+                        }
+                }else{ $this->request->redirect('adminpage/login'); }
+        }
+        public function action_remove(){
+            $auth = Auth::instance();
+                if($auth->logged_in() != 0){
+                    $directory = DOCROOT.'styles/upload/';
+                    unlink($directory.$_POST['fileNames']);  
+                }else{ $this->request->redirect('adminpage/login'); }
+        }
 } // End Welcome
 ?>
